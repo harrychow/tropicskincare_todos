@@ -1,17 +1,17 @@
 ## Api
 Deployment:  This is written using a standard laravel installation.  Deployment can be done by cloning this repo,
-and then running composer install.  Once all packages are installed, run php artisan server to start the api server.
+and then running <code>composer install</code>.  Once all packages are installed, run <code>php artisan server</code> to start the api server.
 
-API: The api can be accessed at localhost:8000/api/todos via a GET request
+API: The api can be accessed at <code>localhost:8000/api/todos</code> via a GET request
 
 Data can be filtered by passing in the parameter name and value to be filtered.  Sub-parameters can be filtered by passing
 them in array notation.
 
-ie: /api/todos?user[company][name]=Romaguera-Crona&user[email]=Sincere@april.biz&title=laboriosam%20mollitia%20et%20enim%20quasi%20adipisci%20quia%20provident%20illum
+ie: <code>/api/todos?user[company][name]=Romaguera-Crona&user[email]=Sincere@april.biz&title=laboriosam%20mollitia%20et%20enim%20quasi%20adipisci%20quia%20provident%20illum</code>
 
 Tests:  Tests are contained in tests/Feature/TodoApiTest.php 
 
-Tests can be run via ./vendor/bin/phpunit
+Tests can be run via <code>./vendor/bin/phpunit</code>
 
 
 
